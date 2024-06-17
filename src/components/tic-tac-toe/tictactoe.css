@@ -1,53 +1,52 @@
 .square {
-    background-color: white;
-    width: 50px;
-    height: 50px;
-    border: 1px solid grey;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    line-height: 50px;
-    margin: auto;
-    float: left;
-    text-align: center;
-    cursor: pointer;
+    background-color: white; /* 背景顏色設置為白色 */
+    width: 50px; /* 寬度為50像素 */
+    height: 50px; /* 高度為50像素 */
+    border: 1px solid grey; /* 邊框寬度1像素，灰色 */
+    font-size: 24px; /* 字體大小為24像素 */
+    font-weight: bold; /* 字體加粗 */
+    cursor: pointer; /* 滑鼠移入時顯示指示游標 */
+    line-height: 50px; /* 行高與高度相同，使內容垂直居中 */
+    margin: auto; /* 自動外邊距，使格子水平居中 */
+    float: left; /* 向左浮動，實現棋盤排列 */
+    text-align: center; /* 文本居中對齊 */
 }
 
 .square:hover {
-    background-color: deeppink;
-    color: white;
+    background-color: deeppink; /* 滑鼠移入時背景顏色變為深粉色 */
+    color: white; /* 文本顏色變為白色 */
 }
 
 .game {
-    width: 400px;
-    margin: auto;
-    border: 3px solid blue;
-    border-radius: 20px;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    width: 400px; /* 寬度為400像素 */
+    margin: auto; /* 自動外邊距，使遊戲面板水平居中 */
+    border: 3px solid blue; /* 邊框寬度3像素，藍色 */
+    border-radius: 20px; /* 圓角半徑為20像素 */
+    padding: 20px; /* 內邊距設置為20像素 */
+    display: flex; /* 使用彈性盒子模型顯示 */
+    flex-direction: row; /* 主軸方向設置為水平方向 */
+    align-items: center; /* 在交叉軸上居中對齊 */
 }
 
 .game-board {
-    background-color: gainsboro;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid black;
+    background-color: gainsboro; /* 棋盤背景顏色設置為淺灰色 */
+    padding: 10px; /* 內邊距設置為10像素 */
+    border-radius: 10px; /* 圓角半徑為10像素 */
+    border: 1px solid black; /* 邊框寬度1像素，黑色 */
 }
 
 .game-info {
-    margin-left: 30px;
-    margin-right: 10px;
-    padding: 5px;
+    margin-left: 30px; /* 左外邊距設置為30像素 */
+    margin-right: 10px; /* 右外邊距設置為10像素 */
+    padding: 5px; /* 內邊距設置為5像素 */
 }
 
 .board-row:after {
-    clear: both;
-    content: '';
-    display: table;
+    clear: both; /* 清除浮動元素 */
+    content: ''; /* 生成空內容 */
+    display: table; /* 以表格方式顯示 */
 }
 
 .status {
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* 底部外邊距設置為10像素 */
 }

@@ -1,62 +1,71 @@
+/* 計算器容器樣式 */
 .calculator {
-    width: 320px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 10px;
-    background-color: grey;
-    margin: auto;
-    padding: 10px;
+    width: 320px; /* 設定計算器的寬度 */
+    color: white; /* 計算器文字顏色 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 計算器文字字體 */
+    border-radius: 10px; /* 設定計算器的邊角圓滑程度 */
+    background-color: grey; /* 計算器的背景顏色 */
+    margin: auto; /* 設定計算器在父容器中的自動水平居中 */
+    padding: 10px; /* 計算器內部邊距 */
 }
 
+/* 按鈕板塊樣式 */
 .board {
-    display: inline-block;
-    margin: 10px;
+    display: inline-block; /* 設定內聯塊級元素，方便排列 */
+    margin: 10px; /* 設定板塊外邊距 */
 }
 
+/* 顯示屏樣式 */
 .display {
-    width: 100%;
-    height: 75px;
-    background-color: black;
-    text-align: right;
-    font-size: 50px;
-    border-radius: 5px;
+    width: 100%; /* 設定顯示屏寬度為計算器容器的 100% */
+    height: 75px; /* 設定顯示屏高度 */
+    background-color: black; /* 設定顯示屏背景顏色 */
+    text-align: right; /* 設定顯示屏文字向右對齊 */
+    font-size: 50px; /* 設定顯示屏文字大小 */
+    border-radius: 5px; /* 設定顯示屏邊角圓滑程度 */
 }
 
+/* 通用按鈕樣式 */
 .btn {
-    background-color: #323232;
-    color: white;
-    width: 60px;
-    height: 60px;
-    font-size: 25px;
-    border-radius: 50%;
-    outline: none;
-    border: 0px;
-    padding: 5%;
-    margin: 5px;
-    cursor: pointer;
+    background-color: #323232; /* 設定按鈕背景顏色 */
+    color: white; /* 設定按鈕文字顏色 */
+    width: 60px; /* 設定按鈕寬度 */
+    height: 60px; /* 設定按鈕高度 */
+    font-size: 25px; /* 設定按鈕文字大小 */
+    border-radius: 50%; /* 設定按鈕為圓形 */
+    outline: none; /* 移除按鈕的外框 */
+    border: 0px; /* 移除按鈕的邊框 */
+    padding: 5%; /* 設定按鈕的內邊距 */
+    margin: 5px; /* 設定按鈕的外邊距 */
+    cursor: pointer; /* 設定按鈕的鼠標樣式 */
 }
 
+/* 操作按鈕樣式 */
 .btn-action {
-    background-color: brown;
-    color: bisque;
+    background-color: brown; /* 設定操作按鈕背景顏色 */
+    color: bisque; /* 設定操作按鈕文字顏色 */
 }
 
+/* 操作符按鈕樣式 */
 .btn-operator {
-    background-color: coral;
+    background-color: coral; /* 設定操作符按鈕背景顏色 */
 }
 
+/* 特殊的 "0" 按鈕樣式 */
 .btn-0 {
-    width: 130px;
-    border-radius: 30px;
+    width: 130px; /* 設定 "0" 按鈕的寬度 */
+    border-radius: 30px; /* 設定 "0" 按鈕的邊角圓滑程度 */
 }
 
-.btn:hover{
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+/* 按鈕懸停效果 */
+.btn:hover {
+    background-color: white; /* 懸停時按鈕背景顏色變為白色 */
+    color: black; /* 懸停時按鈕文字顏色變為黑色 */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7); /* 懸停時添加陰影效果 */
 }
 
-.btn:active{
-    background-color: darkred;
-    color: white;
+/* 按鈕按下效果 */
+.btn:active {
+    background-color: darkred; /* 按下時按鈕背景顏色變為深紅色 */
+    color: white; /* 按下時按鈕文字顏色變為白色 */
 }
