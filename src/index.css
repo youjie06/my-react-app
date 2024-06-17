@@ -1,14 +1,16 @@
+/* 設定全域的 body 樣式 */
 body {
-  background-color: aquamarine;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine; /* 背景顏色為碧綠色 */
+  margin: 0; /* 邊界為零，消除預設頁面邊界 */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', /* 設定字型 */
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', /* 依序優先使用系統字型 */
+    sans-serif; /* 如果前述字型無法使用，使用 sans-serif 通用字型 */
+  -webkit-font-smoothing: antialiased; /* 提升 Webkit 引擎渲染的字型平滑度 */
+  -moz-osx-font-smoothing: grayscale; /* 提升 macOS Firefox 渲染的字型平滑度 */
 }
 
+/* 設定程式碼樣式 */
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', /* 設定程式碼字型 */
+    monospace; /* 使用等寬字型，有助於顯示程式碼的排版結構 */
 }

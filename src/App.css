@@ -1,40 +1,46 @@
+/* 定義整個應用程式的根元素樣式 */
 .App {
-  text-align: center;
-  background-color: antiquewhite;
+  text-align: center; /* 文字居中對齊 */
+  background-color: antiquewhite; /* 背景顏色為古董白 */
 }
 
+/* 定義應用程式的 logo 樣式 */
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* logo 的高度為視口高度的 40% */
+  pointer-events: none; /* 禁止指標事件（使 logo 不可互動） */
 }
 
+/* 在使用者不要求減少動畫的情況下，定義 logo 的旋轉動畫 */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* 旋轉動畫，無限循環，20 秒完成一次循環，線性運動 */
   }
 }
 
+/* 定義應用程式的標頭樣式 */
 .App-header {
-  background-color: blueviolet;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: blueviolet; /* 標頭的背景顏色為藍紫色 */
+  min-height: 50vh; /* 最小高度為視口高度的 50% */
+  display: flex; /* 使用彈性盒子模型進行布局 */
+  flex-direction: column; /* 主軸為垂直方向 */
+  align-items: center; /* 子元素在交叉軸上居中對齊 */
+  justify-content: center; /* 子元素在主軸上居中對齊 */
+  font-size: calc(10px + 2vmin); /* 字體大小根據視口大小自適應 */
+  color: white; /* 文字顏色為白色 */
 }
 
+/* 定義應用程式中的超連結樣式 */
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* 超連結文字顏色為淺藍色 */
 }
 
+/* 定義旋轉動畫的關鍵幀 */
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* 起始旋轉角度為 0 度 */
   }
 
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* 結束旋轉角度為 360 度（完整旋轉一圈） */
   }
 }

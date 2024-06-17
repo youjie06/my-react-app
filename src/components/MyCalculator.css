@@ -1,25 +1,25 @@
 .calculator {
-    width: 320px;
-    height: 500px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius:  10px;
-    background-color: grey;
-    margin: auto;
-    padding: 10px;
+    width: 320px; /* 設置計算機的寬度 */
+    height: 500px; /* 設置計算機的高度 */
+    color: white; /* 文字顏色為白色 */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 字體設置為 'Segoe UI'，如果不可用則依序嘗試其他字體 */
+    border-radius: 10px; /* 設置邊框圓角為 10px */
+    background-color: grey; /* 設置背景顏色為灰色 */
+    margin: auto; /* 使計算機在父容器中水平居中 */
+    padding: 10px; /* 內邊距設置為 10px */
 }
 
-.board{
-    display: inline-block;
-    margin: 10px;
-    background-color: blue;
+.board {
+    display: inline-block; /* 設置按鈕面板為行內塊元素 */
+    margin: 10px; /* 外邊距設置為 10px */
+    background-color: blue; /* 設置按鈕面板的背景顏色為藍色 */
 }
 
-.display{
-    width: 100%;
-    height: 75px;
-    background-color: black;
-    text-align: right;
-    font-size: 50px;
-    border-radius: 5px;
+.display {
+    width: 100%; /* 設置顯示區域寬度為父元素的100% */
+    height: 75px; /* 設置顯示區域高度為 75px */
+    background-color: black; /* 設置顯示區域的背景顏色為黑色 */
+    text-align: right; /* 文字右對齊 */
+    font-size: 50px; /* 設置字體大小為 50px */
+    border-radius: 5px; /* 設置邊框圓角為 5px */
 }
