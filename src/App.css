@@ -1,40 +1,40 @@
 .App {
-  text-align: center;
-  background-color: antiquewhite;
+  text-align: center; /* 將內容置中 */
+  background-color: antiquewhite; /* 背景顏色設定為古董白 */
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 40vmin; /* 圖片高度佔視窗高度的40% */
+  pointer-events: none; /* 圖片不參與滑鼠事件 */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 20s linear; /* 如果使用者不減少動畫偏好，則設置圖片旋轉動畫 */
   }
 }
 
 .App-header {
-  background-color: blueviolet;
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: blueviolet; /* 標題區塊背景顏色設置為藍紫色 */
+  min-height: 50vh; /* 最小高度為視窗高度的50% */
+  display: flex; /* 使用 flexbox 顯示 */
+  flex-direction: column; /* 主軸方向設置為垂直方向 */
+  align-items: center; /* 主軸對齊方式為置中 */
+  justify-content: center; /* 交叉軸對齊方式為置中 */
+  font-size: calc(10px + 2vmin); /* 設置字體大小，視窗大小變化時動態調整 */
+  color: white; /* 字體顏色設置為白色 */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* 鏈接文字顏色設置為淺藍色 */
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+    transform: rotate(0deg); /* 從0度旋轉開始 */
   }
 
   to {
-    transform: rotate(360deg);
+    transform: rotate(360deg); /* 旋轉到360度 */
   }
 }

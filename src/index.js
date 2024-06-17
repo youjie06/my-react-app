@@ -1,9 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import ReactDOM from 'react-dom'; // 使用 ReactDOM 的正確引入方式
+import './index.css'; // 引入自定義的 CSS 樣式表
+import App from './App'; // 引入主要的應用程式組件
+import reportWebVitals from './reportWebVitals'; // 引入用於測量 Web 效能的函式
 
+// 創建根節點，並將應用程式渲染到根節點中
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
