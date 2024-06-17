@@ -1,14 +1,14 @@
 body {
-  background-color: aquamarine;
-  margin: 0;
+  background-color: aquamarine; /* 設置整個網頁的背景顏色為碧綠色 */
+  margin: 0; /* 清除預設的頁面邊距 */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    sans-serif; /* 設置網頁內文字的字型，按照優先順序依次選用系統字體 */
+  -webkit-font-smoothing: antialiased; /* 設置字體在WebKit引擎下的抗鋸齒效果 */
+  -moz-osx-font-smoothing: grayscale; /* 設置字體在Firefox中的抗鋸齒效果 */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace; /* 設置程式碼塊中文字的字型為等寬字型，依次選用多種字型 */
 }
